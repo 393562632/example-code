@@ -14,6 +14,7 @@ structure = dict(
     ITEM_TOTAL = slice(55, None),
 )
 
+
 for line in invoice.split('\n')[2:]:
     line_item = {}
     for field, chunk in structure.items():
